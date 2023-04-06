@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+    
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 5em;
+    align-items: center;
+    margin-top:19px;
+
+
+}
+body{
+    background-color:#f1f1f2;
+    font-family: sans-serif;
+}
+
+.navbar ul{
+   
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 108px;
+    margin-left: 108px;
+    margin-right: 108px;
+}
+.navbar ul li {
+    width: 120px;
+    margin-left: 58px;
+    margin-top: 11px;
+    padding: 15px;
+    font-size: 018px;
+    text-decoration: none;
+    font-weight: 500;}
+.navbar ul li a{
+    text-decoration: none;
+    color: #313133;;
+}
+   
+.navbar ul li a:hover{
+    color: orange;
+
+}
+ .form-1 {
+    display: flex;
+    position: relative;
+    right: 208px;
+    bottom: 10px;
+}
+input{
+    position: relative;
+    font-size: 15px;
+}
+input[type="text"]
+{
+    width: 377px;
+    height: 34px;
+    outline: none;
+    padding: 9px 81px 4px 2px;
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    /* text-overflow: ellipsis; */
+    height: 100%;
+    box-shadow: none;
+    flex-grow: 1;
+    outline: 0;
+
+}
+input[type="submit"]{
+    position:relative;
+    border-radius: 5px;
+    width: 150px;
+    height: 39.5px;
+background-color:#f68b1e ;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+font-weight: 500;
+border: 0;
+text-transform: uppercase;
+text-align: center;
+box-sizing: border-box;
+padding-bottom: 12px;
+    padding-top: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 8px;
+    text-align:center ;
+    color: white;
+}
+img{
+    width: 159px;
+    height: 33px;
+    right: 171px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 5px;
+}
+.panier{
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center ;
+    justify-content: center;
+    margin: auto;
+    height: 321px;
+    text-align: center;
+    margin: 20px 100px;
+    line-height: 4em;
+}
+.panier img{
+    left: 2px;
+    width: 120px;
+    height: 116px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 2px;
+}
+button{
+    position:relative;
+    border-radius: 5px;
+    width: 219px;
+    height: 39.5px;
+background-color:#f68b1e ;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
+font-weight: 500;
+border: 0;
+text-transform: uppercase;
+text-align: center;
+box-sizing: border-box;
+padding-bottom: 12px;
+    padding-top: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 8px;
+    text-align:center ;
+    color: white;
+}
+
+.vu{
+    background-color: white;
+    width: 100%;
+    height: 28em;
+    position: relative;
+    right: 96px;
+    top: 56px;
+    left: 96px;
+    padding: 4px;
+    max-width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.vu ul{
+    display: flex;
+    list-style: none;
+}
+.vu ul li{
+    width: 203px;
+    height: 358px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    position: relative;
+    left: 0px;
+    line-height: 2em;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px
+
+
+}
+    .vu{
+        margin: 327px 0px 0px 0px;
+        background-color: white;
+        display: inline-block;}
+.vu img 
+{
+    width: 173px;
+    height: 217px;
+    position: relative;
+    left: 10px;
+   
+}
+h2{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 8px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+   
+}
+
+.surligne{
+text-decoration: line-through;
+color: #75757a;
+font-weight: 400;}
+.menu img{
+    width: 36px;
+    height: 37px;
+    position: relative;
+    left: -1px;
+    bottom: 8px;
+}
+.demande{
+    background-color: white;
+    width: 100%;
+    height: 28em;
+    position: relative;
+    right: 96px;
+    top: 56px;
+    left: 96px;
+    padding: 4px;
+    max-width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 28px 0px 0px 0px;
+    background-color: white;
+    display: inline-block;
+
+}
+.demande ul{
+    display: flex;
+    list-style: none;
+}
+.demande ul li{
+    width: 271px;
+    height: 358px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 13px 24px;
+    position: relative;
+    left: 0px;
+    line-height: 2em;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+
+}
+.demande img 
+{
+    width: 173px;
+    height: 217px;
+    position: relative;
+    left: 10px;
+   
+}
+footer{
+        background-color:#313133;
+        margin: 100px 0 0 0;
+        color: #f1f1f2;
+        height: 14em;
+}
+.foot-1{
+    margin: 47px 24px 0px 170px;
+}
+.foot-1 ul li{
+    width: 209px;
+    list-style: none;
+    display: block;
+    margin: 41px 0px -40px;
+    position: relative;
+    left: 61px;}
+.foot-1 ul{
+    display: flex;
+}
+.two{
+    right: 130px;
+    width: 154px;
+    height: 44px;
+    position: relative;
+}
+.form-2{
+    position: relative;
+    top: 18px;
+    left: -114px;
+    display: flex;
+}
+.three{
+    width: 71px;
+    height: 50px;
+    position: relative;
+    left: -78px;
+    top: 20px;}
+.last{
+    position: relative;
+    left:315px
+}
+.four{
+    left: 71px;
+    top: 8px;
+}
+.a2:hover{
+    color: #f68b1e;
+    cursor: pointer;
+}
